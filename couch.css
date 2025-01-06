@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*-----Navbar Styles---------*/
+.container-fluid{
+    background-color: white;
+}
+/*------DROPDOWM MENU-------*/
+.container .nav-brand a img{
+    padding: 0px;
+}
+.dropdown-item{
+    padding: 13px;
+}
+.dropdown-item:hover{
+    border: 1px solid orange;
+    color: #48358f;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-link{
+   margin-inline: 40px;
+}
+
+.collapse ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-link:hover{
+    font-weight: bold;
+    color: lightcoral;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+
+/*-------------Model Styles--------------------*/
+.m input:hover{
+    box-shadow: 5px 5px 10px black;
+}
+
+/*----------Image Creation Styles---------------*/
+.background{
+    background-color: #342565;  
+}
+
+.container2 .h4{
+    color: #009990;
+    font-size: 25px;    
+    font-weight: bold;   
+}
+.container2  .h4:hover{
+
+    transition: all 1s;
+        
+}
+.container2  .display-3:hover{
+    text-shadow: 5px 5px 5px black;
+    transform: scale(1.2,1.2);
+}
+.container2  .h5{
+    color: white;
+}
+.btn1:hover{
+    background-color: orange;
+    font-weight: bolder;
+}
+
+/*---------Horizontal container Styles--------------*/
+.common{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 20px;
+    align-items: center;
+    display: inline-flex;
+    border: 2px solid gray;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item img{
+    width: 100px;
+    height: 130px;
+}
+
+/*--------Email Box---------------------*/
+.btn3:hover{
+    font-weight: bold;
+}
+.email p{
+    margin-left: 200px;
+   display: flex;
+   align-items: center;  
+}
+.email .h3{
+    margin-top: 0px;
+    color: #009990;
+}
+.email .h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #48358f;
+}
+
+/*------For Bg-image----------------*/
+.bg1{
+    margin-top: 30px;
+    background-color: black;
+    background-image: url(https://truecoach.co/wp-content/themes/truecoach/assets/images/png/cta-shape-img.png);
+} 
+.form1{
+    background-image: url(https://truecoach.co/wp-content/themes/truecoach/assets/images/png/cta-shape-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.form input{
+    margin-top: 10px;
+}
+
+/*-----------Card Creating styles---------------*/
+.inform{
+    background-color: #342565;
+}
+.card-title{
+    color: #48358f;
+    font-weight: bold;
+}
+.com .h4{
+    color: #009990;
+}
+/*---------------Contact Infrmatio--------------------*/
+.com1 h5{
+    color: #48358f;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.com1 p a{
+    color: black;
+    text-decoration: none;
+}
+.com1 p a:hover{
+    color: salmon;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.com1 span a{
+    color: black;
+}
+.com1 span a:hover{
+    color: crimson;
+}
